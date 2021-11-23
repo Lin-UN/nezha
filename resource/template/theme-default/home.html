@@ -114,6 +114,13 @@
                       <i class="arrow alternate circle up outline icon"></i>
                       @#formatByteSize(server.State.NetOutSpeed)#@/s
                     </div>
+                      <div class="three wide column">用量</div>
+                    <div class="thirteen wide column">
+                      <i class="arrow alternate circle down outline icon"></i>
+                      @#formatByteSize(server.State.NetInTransfer)#@
+                      <i class="arrow alternate circle up outline icon"></i>
+                      @#formatByteSize(server.State.NetOutTransfer)#@
+                    </div>         
                     <div class="three wide column">硬盘</div>
                     <div class="thirteen wide column">
                       <div
